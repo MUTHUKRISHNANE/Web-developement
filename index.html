@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number_Conversion</title>
+    <link rel="icon" type="image/x-icon" href="nc.png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <h1>N U M B E R C O N V E R S I O N</h1><br><br><br>
+  <center>
+    <div>
+        <form autocomplete="off">
+        Choose any one <br><br><select style="background-color:rgba(1, 0, 0, 0.5);color:white;outline:none;border-radius:5px;border:none;padding:10px" name="Number_Conversion"  id="ns">
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="none">None</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="BtoD">Binary to Decimal</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="BtoO">Binary to Octal</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="BtoH">Binary to Hexadecimal</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="DtoB">Decimal to Binary</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="DtoO">Decimal to Octal</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="DtoH">Decimal to Hexadecimal</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="OtoB">Octal to Binary</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="OtoD">Octal to Decimal</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="OtoH">Octal to Hexadecimal</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="HtoB">Hexadecimal to Binary</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="HtoD">Hexadecimal to Decimal</option>
+        <option style="background-color:rgba(1, 0, 0, 0.5);color:white" align="justify" value="HtoO">Hexadecimal to Octal</option>
+        </select><br><br>
+        Enter a value: <input  type="text"  style="outline:none;background-color:rgba(6, 204, 145,0.5);border:none;padding:5px;font-weight:bold;color:white" id="vl" name="dv">
+        <h3 align="left">Result :</h3>
+        <textarea id="result" disabled cols="35" rows="5">
+        </textarea><br>
+        <input id="demo"size="30" disabled style="color:red;font-size:15px;text-align:center;width:fit-content;outline:none;border:none;background-color:rgba(0,0,0,0)"><br><br>
+        <input type="button" onclick="NS()" id="button" value="Convert">&nbsp;&nbsp;&nbsp;
+        <input id="reset" type="reset"><br><br>
+        </form>
+    </div></center>
+    <script src="script.js"></script>
+</body>
+</html>
